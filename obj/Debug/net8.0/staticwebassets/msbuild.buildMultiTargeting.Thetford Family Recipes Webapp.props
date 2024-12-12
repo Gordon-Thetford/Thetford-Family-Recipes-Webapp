@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Thetford Family Recipes Webapp.props" />
+</Project>

@@ -17,7 +17,7 @@ public class AppDbContext : DbContext
             .HasKey(e => new {e.RecipeID, e.IngredientID});
     }
 
-    public DbSet<Recipe> Recipes {get; set;}
-    public DbSet<Ingredient> Ingredients {get; set;}
-    public DbSet<RecipeIngredient> RecipeIngredients {get; set;}
+    public DbSet<Recipe> Recipes {get; set;} = default!;
+    public DbSet<Ingredient> Ingredients {get; set;} = default!;
+    public DbSet<RecipeIngredient> RecipeIngredients {get; set;} = default!;
 }

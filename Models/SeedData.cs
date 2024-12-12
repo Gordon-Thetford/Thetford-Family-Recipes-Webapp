@@ -54,8 +54,10 @@ public static class SeedData
                 Source = "Alice",
             }
         );
+
+        context.SaveChanges();
         
-                context.Ingredients.AddRange(
+        context.Ingredients.AddRange(
             // Recipe 1
             /* 1 */ new Ingredient {BaseName = "Olive Oil"},
             /* 2 */ new Ingredient {BaseName = "Diced Onion"},
@@ -99,6 +101,8 @@ public static class SeedData
             /* 37 */ new Ingredient {BaseName = "Liquid Smoke"},
             /* 38 */ new Ingredient {BaseName = "Dill Weed"}
         );
+        
+        context.SaveChanges();
 
         context.RecipeIngredients.AddRange(
             // Recipe 1 Begin

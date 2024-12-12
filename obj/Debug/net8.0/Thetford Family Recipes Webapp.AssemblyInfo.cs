@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Thetford Family Recipes Webapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+418392f8218ffb4258091683a562b7ea68739548")]
 [assembly: System.Reflection.AssemblyProductAttribute("Thetford Family Recipes Webapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Thetford Family Recipes Webapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
