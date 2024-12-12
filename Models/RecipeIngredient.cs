@@ -13,5 +13,5 @@ public class RecipeIngredient
 
     public Recipe Recipes { get; set;} = default!; //Nav property to Recipe
 
-    public Ingredient Ingredients { get; set; } = default!;
+    public Ingredient Ingredients { get; set; } = default!; //Nav property to Ingredient
 }

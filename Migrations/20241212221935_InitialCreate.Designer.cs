@@ -10,7 +10,7 @@ using Thetford_Family_Recipes_Webapp.Models;
 namespace Thetford_Family_Recipes_Webapp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241212183326_InitialCreate")]
+    [Migration("20241212221935_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

@@ -6,6 +6,7 @@ public class Ingredient
 {
     public int IngredientID { get; set; } //PK
 
+    [Display(Name = "Base Name")]
     public string BaseName { get; set; } = string.Empty;
 
     // i.e. jack, cheddar or cotija cheese or diced, minced, or sliced onion

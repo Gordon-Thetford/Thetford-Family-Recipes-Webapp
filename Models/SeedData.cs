@@ -50,7 +50,7 @@ public static class SeedData
                 Instructions = "Allow cream cheese to warm ahead of time for easier mixing. Drain liquid from canned salmon. Combine all except cream cheese and salmon. Mix in cream cheese then salmon. Serve.",
                 Effort = 1,
                 IsFavorite = true,
-                ImageURL = "salmon_pate.jpg",
+                ImageURL = "img/salmon_pate.jpg",
                 Source = "Alice",
             }
         );

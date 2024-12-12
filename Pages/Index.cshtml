@@ -55,32 +55,90 @@
 </div>
 <hr class="my-4">
 
-@* Alternating Sides Favorite Recipe Listings *@
+@* Alternating img/text Favorite Recipe Listings *@
+@{
+    int oddOrEven = 1;
+    foreach(var recipe in Model.RecipeFavorites) {
+        if(oddOrEven % 2 == 1) {
+            @* img/text *@
+            <div class="row mb-3">
+                <div class="col-5">
+                    <img src="@Html.DisplayFor(modelItem => recipe.ImageURL)" class="d-block w-100 img-fluid" alt="...">
+                </div>
+                <div class="col-7">
+                    <h3>@Html.DisplayFor(modelItem => recipe.RecipeName)</h3>
+                    <span>
+                        <h4 class="text-secondary">Difficulty:  
+                            @* I could try to use the recipe.Effort value here directly, between "bi-"" and "-square", test this later when I have more time *@
+                            @switch(recipe.Effort)
+                            {
+                                case 1:
+                                    <i class="bi bi-1-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 2:
+                                    <i class="bi bi-2-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 3:
+                                    <i class="bi bi-3-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 4:
+                                    <i class="bi bi-4-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 5:
+                                    <i class="bi bi-5-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                            }
+                        </h4>
+                    </span>
+                    <p class="fs-5">@Html.DisplayFor(modelItem => recipe.Description)</p>
+                    <button type="button" class="btn btn-large btn-secondary disabled">To Recipe</button>
+                </div>
+            </div>
+            <hr class="my-4">
+            oddOrEven ++;
+        } else {
+            @* text/img *@
+            <div class="row mb-3">
+                <div class="col-7">
+                    <h3>@Html.DisplayFor(modelItem => recipe.RecipeName)</h3>
+                    <span>
+                        <h4 class="text-secondary">Difficulty:  
+                            @* I could try to use the recipe.Effort value here directly, between "bi-"" and "-square", test this later when I have more time *@
+                            @switch(recipe.Effort)
+                            {
+                                case 1:
+                                    <i class="bi bi-1-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 2:
+                                    <i class="bi bi-2-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 3:
+                                    <i class="bi bi-3-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 4:
+                                    <i class="bi bi-4-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                                case 5:
+                                    <i class="bi bi-5-square" style="color: rgb(194, 224, 227);"></i>
+                                    break;
+                            }
+                        </h4>
+                    </span>
+                    <p class="fs-5">@Html.DisplayFor(modelItem => recipe.Description)</p>
+                    <button type="button" class="btn btn-large btn-secondary disabled">To Recipe</button>
+                </div>
+                <div class="col-5">
+                    <img src="@Html.DisplayFor(modelItem => recipe.ImageURL)" class="d-block w-100 img-fluid" alt="...">
+                </div>
+            </div>
+            <hr class="my-4">
+            oddOrEven ++;
+        }
+    }
+}
 
 
 
-@* text/img *@
-@* <div class="row mb-3">
-    <div class="col-7">
-        <h3>Street Corn Chicken Chili <span class="text-secondary">DESCRIPTION</span></h3>
-        <p class="fs-5">BODY TEXT</p>
-        <button type="button" class="btn btn-large btn-danger">To Recipe</button>
-    </div>
-    <div class="col-5">
-        <img src="img/street_corn_chicken_chili.jpg" class="d-block w-100 img-fluid" alt="...">
-    </div>
-</div>
-<hr class="my-4"> *@
 
-@* img/text *@
-@* <div class="row mb-3">
-    <div class="col-5">
-        <img src="img/enchilada_casserole.jpg" class="d-block w-100 img-fluid" alt="...">
-    </div>
-    <div class="col-7">
-        <h3>RECIPE NAME <span class="text-secondary">DESCRIPTION</span></h3>
-        <p class="fs-5">BODY TEXT</p>
-        <button type="button" class="btn btn-large btn-danger">To Recipe</button>
-    </div>
-</div>
-<hr class="my-4"> *@
+
+
