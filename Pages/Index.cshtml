@@ -4,7 +4,83 @@
     ViewData["Title"] = "Home page";
 }
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4 mb-4"><strong>Welcome to the Thetford Family Recipes Website</strong></h1>
 </div>
+
+<div id="carouselTop" class="carousel slide">
+    @* Adds carousel indicators at the bottom *@
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselTop" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/carousel_wide_1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px 2px black">
+                <h3>Measure With Your Heart.</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/carousel_wide_2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" style="text-shadow: 2px 2px 2px black">
+                <h3>Cook with love, serve with joy.</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/carousel_wide_3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-start" style="text-shadow: 2px 2px 2px black">
+                <h3>Enjoy The Journey.</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/carousel_wide_4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-end" style="text-shadow: 2px 2px 2px black">
+                <h3>Eat well, laugh often, love much.</h3>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTop" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselTop" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<hr class="my-4">
+
+@* Alternating Sides Favorite Recipe Listings *@
+
+
+
+@* text/img *@
+@* <div class="row mb-3">
+    <div class="col-7">
+        <h3>Street Corn Chicken Chili <span class="text-secondary">DESCRIPTION</span></h3>
+        <p class="fs-5">BODY TEXT</p>
+        <button type="button" class="btn btn-large btn-danger">To Recipe</button>
+    </div>
+    <div class="col-5">
+        <img src="img/street_corn_chicken_chili.jpg" class="d-block w-100 img-fluid" alt="...">
+    </div>
+</div>
+<hr class="my-4"> *@
+
+@* img/text *@
+@* <div class="row mb-3">
+    <div class="col-5">
+        <img src="img/enchilada_casserole.jpg" class="d-block w-100 img-fluid" alt="...">
+    </div>
+    <div class="col-7">
+        <h3>RECIPE NAME <span class="text-secondary">DESCRIPTION</span></h3>
+        <p class="fs-5">BODY TEXT</p>
+        <button type="button" class="btn btn-large btn-danger">To Recipe</button>
+    </div>
+</div>
+<hr class="my-4"> *@

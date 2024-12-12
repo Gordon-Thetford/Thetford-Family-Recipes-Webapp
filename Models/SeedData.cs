@@ -20,7 +20,7 @@ public static class SeedData
                 Instructions = "Set a large soup pot over medium heat. Add the onion, jalapenos, corn kernels, kosher salt, and pepper. Cook 7 to 9 minutes stirring a few times. Add the garlic, ground chicken, chili powder, paprika, cumin, more kosher salt, and pepper. Cook 7 to 9 minutes, stirring and breaking apart the chicken with a spatula. Add the chicken broth, beer (if using), and chicken base. Bring to a boil then reduce the heat to medium low and simmer for 25 to 30 minutes. Add the hot sauce, sour cream, cilantro, and lime juice. Cook 5 to 10 more minutes. Taste for seasoning and add more chili powder, kosher salt, and/or pepper if needed. Serve with toppings such as more cilantro, crumbled cotija cheese, chili powder, lime wedges if desired.",
                 Effort = 3,
                 IsFavorite = true,
-                ImageURL = "img/Street-Corn-Chicken-Chili.jpg",
+                ImageURL = "img/street_corn_chicken_chili.jpg",
                 Source = "https://cookswellwithothers.com/2023/12/24/street-corn-chicken-chili/",
             },
             new Recipe {
@@ -30,7 +30,7 @@ public static class SeedData
                 Instructions = "Chop mushrooms and onions. Heat oil in a large skillet and saute until tender adding the mushrooms when the onions are about halfway done. At some point add salt, pepper, garlic powder, and onion powder. When finished cooking, sprinkle the flour over the mushrooms and onions to absorb any excess liquid. Heat the oil in a large skillet over medium heat. Form ground beef into flat, thin patties. Salt and pepper the patties and cook until internal temp is 165F. Can add worcestershire sauce if desired Dissolve a beef bouillion cube into the water for the brown gravy packets and begin cooking per packet instructions. Ingredients can be combined in skillet or on plate. Serve.",
                 Effort = 2,
                 IsFavorite = true,
-                ImageURL = "img/Chopped-Steak.jpg",
+                ImageURL = "img/chopped_steak.jpg",
                 Source = "https://thesaltymarshmallow.com/easy-chopped-steaks-and-gravy/",
             },
             new Recipe {
@@ -40,7 +40,7 @@ public static class SeedData
                 Instructions = "Combine beef and onion in a frying pan and brown over high heat, stirring meat to crumble. Stir in taco seasoning mix and water: cover and simmer 10 minutes. Choose a 2.5-3qt baking pan and pour half of the taco sauce into it. Turn turn five of the tortillas in the sauce to coat lightly and spread them, overlapping int the bottom of the dish. In a wire strainer, press out most of the water from the spinach and stir half into the beef; spoon the beef mixture over the tortillas and sprinkle with 1/2 of the cheese. Cover with remaining tortillas, overlapping, and spread the balance of the balance of taco sauce over them. Spread sour cream over top. Scatter the spinach over the sour cream then top with remaining cheese. To cook immediately, bake in a 375 degree oven for 40 minutes, covered for the first 25 minutes. If made ahead, bake at 375 for 1hr 10 min or until heated through and bubbling around the edges. Cover for the first 35 minutes. Freezes well.",
                 Effort = 3,
                 IsFavorite = true,
-                ImageURL = "img/Enchilada-Casserole.jpg",
+                ImageURL = "img/enchilada_casserole.jpg",
                 Source = "Lynn Miller",
             },
             new Recipe {
@@ -49,8 +49,8 @@ public static class SeedData
                 Notes = "I like to go heavy on the flavoring ingredients - Measure with your heart",
                 Instructions = "Allow cream cheese to warm ahead of time for easier mixing. Drain liquid from canned salmon. Combine all except cream cheese and salmon. Mix in cream cheese then salmon. Serve.",
                 Effort = 1,
-                IsFavorite = default,
-                ImageURL = "Salmon-Pate.jpg",
+                IsFavorite = true,
+                ImageURL = "salmon_pate.jpg",
                 Source = "Alice",
             }
         );

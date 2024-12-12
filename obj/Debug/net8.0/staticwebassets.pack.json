@@ -13,20 +13,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\Chopped-Steak.jpg",
-      "PackagePath": "staticwebassets\\img\\Chopped-Steak.jpg"
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\carousel_wide_1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel_wide_1.jpg"
     },
     {
-      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\Enchilada-Casserole.jpg",
-      "PackagePath": "staticwebassets\\img\\Enchilada-Casserole.jpg"
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\carousel_wide_2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel_wide_2.jpg"
     },
     {
-      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\Salmon-Pate.jpg",
-      "PackagePath": "staticwebassets\\img\\Salmon-Pate.jpg"
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\carousel_wide_3.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel_wide_3.jpg"
     },
     {
-      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\Street-Corn-Chicken-Chili.jpg",
-      "PackagePath": "staticwebassets\\img\\Street-Corn-Chicken-Chili.jpg"
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\carousel_wide_4.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel_wide_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\chopped_steak.jpg",
+      "PackagePath": "staticwebassets\\img\\chopped_steak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\enchilada_casserole.jpg",
+      "PackagePath": "staticwebassets\\img\\enchilada_casserole.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\salmon_pate.jpg",
+      "PackagePath": "staticwebassets\\img\\salmon_pate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\img\\street_corn_chicken_chili.jpg",
+      "PackagePath": "staticwebassets\\img\\street_corn_chicken_chili.jpg"
     },
     {
       "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\js\\site.js",
@@ -143,6 +159,10 @@
     {
       "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.bak",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.bak"
     },
     {
       "Id": "C:\\Users\\leeth\\OneDrive - West Texas A and M University\\CIDM 3312-70 Adv Bus Prog\\VSC Saves\\Thetford Family Recipes Webapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
