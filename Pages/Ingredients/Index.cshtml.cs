@@ -40,7 +40,7 @@ namespace Thetford_Family_Recipes_Webapp.Pages_Ingredients
 
         public async Task OnGetAsync()
         {
-            // ".Select(s => s)" is required because var query is a partial query that simply selects all the students w/o filtering or converting to list
+            // ".Select(s => s)" is required because var query is a partial query that simply selects all w/o filtering or converting to list
             var query = _context.Ingredients.Include(i => i.RecipeIngredients!).ThenInclude(ri => ri.Recipes).Select(o => o);
 
             if (!string.IsNullOrEmpty(CurrentSearch))

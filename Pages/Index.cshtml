@@ -91,7 +91,7 @@
                         </h4>
                     </span>
                     <p class="fs-5">@Html.DisplayFor(modelItem => recipe.Description)</p>
-                    <button type="button" class="btn btn-large btn-secondary disabled">To Recipe</button>
+                    <a asp-page="./ViewRecipe" asp-route-id="@recipe.RecipeID" class="btn btn-large btn-secondary">View Recipe</a>
                 </div>
             </div>
             <hr class="my-4">
@@ -125,7 +125,7 @@
                         </h4>
                     </span>
                     <p class="fs-5">@Html.DisplayFor(modelItem => recipe.Description)</p>
-                    <button type="button" class="btn btn-large btn-secondary disabled">To Recipe</button>
+                    <a asp-page="./ViewRecipe" asp-route-id="@recipe.RecipeID" class="btn btn-large btn-secondary">View Recipe</a>
                 </div>
                 <div class="col-5">
                     <img src="@Html.DisplayFor(modelItem => recipe.ImageURL)" class="d-block w-100 img-fluid" alt="...">
